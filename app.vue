@@ -11,8 +11,8 @@
           </div>
         </div>
 
-        <main class="col-span-12 bg-red-500 md:col-span-8 xl:col-span-6">
-          <h1>as</h1>
+        <main class="col-span-12 md:col-span-8 xl:col-span-6">
+        <RouterView/>
         </main>
 
         <div class="hidden col-span-12 md:block xl-col-span-4 xl:col-span-3 ">
