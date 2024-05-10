@@ -6,7 +6,7 @@
         <div v-if="props.loading" class="flex items-center justify-center p-4 border-b" :class="twitterBorderColor">
             <UISpinner/>
         </div>
-        <div v-else>
+        <div v-else>    
             <slot></slot>
         </div>
     </div>
